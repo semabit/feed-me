@@ -89,7 +89,7 @@
 - Added the “Set Empty Values” feed setting, which determines whether empty values in the feed should be respected or ignored. ([#1228](https://github.com/craftcms/feed-me/pull/1228), [#797](https://github.com/craftcms/feed-me/issues/797), [#723](https://github.com/craftcms/feed-me/issues/723), [#854](https://github.com/craftcms/feed-me/issues/854), [#680](https://github.com/craftcms/feed-me/issues/680))
 - Added support for Money fields.
 - Added support for users’ Full Name fields. ([#1235](https://github.com/craftcms/feed-me/pull/1235))
-- Changes made to `craft\feedme\events\ElementEvent::$parsedValue` via `craft\feedme\base\Element::EVENT_AFTER_PARSE_ATTRIBUTE` are now respected. ([#1172](https://github.com/craftcms/feed-me/pull/1172))
+- Changes made to `semabit\feedme\events\ElementEvent::$parsedValue` via `semabit\feedme\base\Element::EVENT_AFTER_PARSE_ATTRIBUTE` are now respected. ([#1172](https://github.com/craftcms/feed-me/pull/1172))
 - Disabled elements are no longer redundantly re-disabled, drastically improving the performance of some feed imports. ([#1248](https://github.com/craftcms/feed-me/pull/1248), [#1241](https://github.com/craftcms/feed-me/issues/1241))
 - Fixed a bug where some feed element data would be considered changed even if there were no changes. ([#1220](https://github.com/craftcms/feed-me/pull/1220), [#1219](https://github.com/craftcms/feed-me/issues/1219), [#1223](https://github.com/craftcms/feed-me/pull/1223/), [#1219](https://github.com/craftcms/feed-me/issues/1219))
 - Fixed a bug where the default value modal for relational fields on the feed mapping page would show all available sources, not just the sources allowed for the field. ([#1234](https://github.com/craftcms/feed-me/pull/1234))

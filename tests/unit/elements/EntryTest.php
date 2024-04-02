@@ -1,6 +1,6 @@
 <?php
 
-use craft\feedme\elements\Entry;
+use semabit\feedme\elements\Entry;
 
 class EntryTest extends \Codeception\Test\Unit
 {

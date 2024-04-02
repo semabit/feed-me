@@ -1,7 +1,7 @@
 <?php
 
-use craft\feedme\helpers\BaseHelper;
-use craft\feedme\helpers\DateHelper;
+use semabit\feedme\helpers\BaseHelper;
+use semabit\feedme\helpers\DateHelper;
 
 class HelpersTest extends \Codeception\Test\Unit
 {
